@@ -18,4 +18,9 @@ public class ClientApiController {
     public UserResponse getHello() {
         return restTemplateService.hello();
     }
+
+    @GetMapping("/user")
+    public UserResponse post() {
+        return restTemplateService.post();
+    }
 }

@@ -1,2 +1,5 @@
-### server to server
+### Server to Server > GET
 GET http://localhost:8080/api/client/hello
+
+### Server to Server > POST
+GET http://localhost:8080/api/client/user
