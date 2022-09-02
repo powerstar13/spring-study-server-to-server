@@ -9,3 +9,6 @@ GET http://localhost:8080/api/client/exchange
 
 ### Server to Server > POST
 GET http://localhost:8080/api/client/generic-exchange
+
+### Naver Open API
+GET http://localhost:9090/api/server/naver
